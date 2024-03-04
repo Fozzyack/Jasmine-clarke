@@ -13,7 +13,7 @@ listens: number,
             >
                 <div className="p-2 ">
                     <div className="absolute inset-0 blur-xl group-hover:bg-slate-700 opacity-50 transition ease-in-out duration-700"/>
-                    <img src={picture} alt={name} className="w-[80px] h-[80px] md:w-[120px] md:h-[120px] transition duration-500 relative z-10" />
+                    <img src={picture} alt={name} className="w-[80px] h-[80px] md:w-[80px] md:h-[80px] transition duration-500 relative z-10" />
                 </div>
                 <p className='text-sm'> {name} </p>
             </div>
