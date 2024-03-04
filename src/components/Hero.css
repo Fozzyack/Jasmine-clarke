@@ -1,0 +1,25 @@
+/** .backgroundHero {
+    background-image: url('../assets/HeroImageNBGRes.png');
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+**/
+
+.hero-name-1 {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #08fce8, #d90be0)
+}
+
+.hero-name-2 {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #0282f2, #ed4ff0)
+}
+
+@media (max-width: 768px) {
+    .backgroundHero {
+        background-image: none;
+    }
+}
