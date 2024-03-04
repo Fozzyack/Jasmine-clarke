@@ -18,13 +18,22 @@ function App() {
 					<Gallery />
 				) : null}
 			</AnimatePresence>
-			<div className="absolute bottom-0 left-0 text-xs p-1 rounded-xl bg-black">
+			<div className="fixed bottom-0 left-0 text-xs p-1 rounded-xl bg-black">
 				<span>Icons by </span>
 				<a
 					href="https://icons8.com"
 					className="underline cursor-pointer"
 				>
 					Icons8
+				</a>
+			</div>
+			<div className="fixed bottom-0 right-0 text-xs p-1 rounded-xl bg-black">
+				<span>Created by: </span>
+				<a
+					href="https://frasiersundra.starlightvoyager.dev"
+					className="underline cursor-pointer"
+				>
+			        Frasier Sundra	
 				</a>
 			</div>
 		</div>
