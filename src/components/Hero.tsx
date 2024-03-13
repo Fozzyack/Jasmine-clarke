@@ -11,7 +11,7 @@ const Hero = () => {
 			initial={{ opacity: 0, x: -500 }}
 			animate={{ opacity: 1, x: 0 }}
 			exit={{ opacity: 0, x: 500 }}
-			className="relative h-screen flex flex-col items-center justify-between md:justify-end pt-10 md:pb-8 px-4 overflow-hidden backgroundHero"
+			className="relative h-screen flex flex-col items-center justify-between md:justify-end pt-10 md:pb-8 px-4 overflow-hidden"
 		>
 			<div className="hidden absolute inset-0 md:flex flex-col z-0 top-[8%]">
 				<div className="w-full relative flex justify-center m-4 group">
@@ -44,12 +44,10 @@ const Hero = () => {
 			</div>
 			<div className="mt-4 flex flex-col md:flex-row gap-2 z-20">
 				<Embeds />
+
 			</div>
-			<img
-				src={HeroImage}
-				alt="Jasmine and Seraphine"
-				className="block md:absolute md:z-10 md:bottom-0"
-			/>
+            <div className="absolute inset-0 backgroundHero hidden md:block" />
+            <img src={HeroImage} alt="Jasmine and Seraphine" className="block md:hidden"/>
 		</motion.div>
 	);
 };

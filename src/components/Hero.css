@@ -1,10 +1,9 @@
-/** .backgroundHero {
+.backgroundHero {
     background-image: url('../assets/HeroImageNBGRes.png');
     background-position: bottom center;
     background-size: contain;
     background-repeat: no-repeat;
 }
-**/
 
 .hero-name-1 {
     background-clip: text;
